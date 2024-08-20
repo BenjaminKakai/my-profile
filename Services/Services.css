@@ -1,0 +1,95 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px; /* Maintained as per your design */
+    grid-auto-rows: 250px; /* Increased height for more space inside boxes */
+}
+
+.item {
+    position: relative;
+    padding: 40px; /* Increased padding for more space inside the box */
+    text-align: right;
+    border: transparent; 
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center;
+}
+
+.text-content {
+    margin: 0;
+    padding: 20px 0px; /* Increased padding for more space between text and box boundaries */
+}
+
+.text-content h3 {
+    margin-top: 0;
+    padding-top: 0; /* Changed from negative value */
+}
+
+.item-title, .item-description {
+    font-size: 12px;
+}
+
+.grid-container .hoverable:hover {
+    background-color: lightgreen;
+}
+
+.grid-container .hoverable .text-content p {
+    display: none;
+}
+
+.grid-container .hoverable:hover .text-content p {
+    display: block;
+}
+
+.check {
+    position: absolute;
+    right: 40px; /* Adjusted position */
+    bottom: 15px; /* Adjusted position */
+    color: blue;
+    display: none;
+    font-weight: bold;
+}
+
+.hoverable:hover .check {
+    display: block;
+}
+
+#accept-cookies {
+    background-color: white;
+    color: darkorange;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cookie-popup {
+    position: absolute;
+    z-index: 100000;
+    right: 0;
+    top: 10;
+    background-color: darkorange;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+@media only screen and (max-width: 1280px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px; /* Reduced gap for smaller screens */
+        grid-auto-rows: 200px;
+    }
+    .item-title, .item-description {
+        font-size: 10px;
+    }
+    .text-content h3 {
+        font-size: 14px;
+    }
+}
+

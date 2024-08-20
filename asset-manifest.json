@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d034bfce.css",
+    "main.js": "/static/js/main.b1c99c0f.js",
+    "static/media/home video.mp4": "/static/media/home video.f41b1c03d4df7efb1a5f.mp4",
+    "static/media/boxicons.svg": "/static/media/boxicons.2932c34d456522282808.svg",
+    "static/media/boxicons.eot": "/static/media/boxicons.c324d2b5569fb2c20e5d.eot",
+    "static/media/boxicons.woff": "/static/media/boxicons.6ee3db6f8674524d7716.woff",
+    "static/media/boxicons.ttf": "/static/media/boxicons.426af27b46d4c8a018df.ttf",
+    "static/media/boxicons.woff2": "/static/media/boxicons.af4cc70871df09d7cbb2.woff2",
+    "static/media/bxs-nlp.svg": "/static/media/bxs-nlp.ef25db93fbc3e4d805fe0373c9707974.svg",
+    "static/media/bxs-plane-alt.svg": "/static/media/bxs-plane-alt.67686ed3d0c9a4fb458d0bf593b3088b.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/EmailIcon.svg": "/static/media/EmailIcon.c8142d84a76a6450cb414c9db3330bb3.svg",
+    "static/media/LinkedInIcon.svg": "/static/media/LinkedInIcon.82f85b96bfdb1e934dbbbda8c2f35b71.svg",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/TwitterIcon.svg": "/static/media/TwitterIcon.32772074bb945f706b125bd1009c6f03.svg",
+    "static/media/bxs-mlops.svg": "/static/media/bxs-mlops.c6996932d9c42473524e3f0ac863f23f.svg",
+    "static/media/bxs-badge-dollar.svg": "/static/media/bxs-badge-dollar.4e2db70909b5693f32ce97ad6caa4869.svg",
+    "index.html": "/index.html",
+    "static/media/bxs-credit-card-front.svg": "/static/media/bxs-credit-card-front.c89390360a7892126a7175d7088a9130.svg",
+    "static/media/bxs-building-house.svg": "/static/media/bxs-building-house.760e74b6e5784ef96b15ae00a8d374ea.svg",
+    "static/media/FacebookIcon.svg": "/static/media/FacebookIcon.39decb454671835ec684d3169cf7369c.svg",
+    "main.d034bfce.css.map": "/static/css/main.d034bfce.css.map",
+    "main.b1c99c0f.js.map": "/static/js/main.b1c99c0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d034bfce.css",
+    "static/js/main.b1c99c0f.js"
+  ]
+}
